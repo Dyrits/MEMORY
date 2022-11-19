@@ -37,7 +37,7 @@ If there are no environment variables set, the server will start on port 3000. C
 The project has been completed.
 
 ### Features
-The specifications are described in the dedicated document.
+The specifications are described in the dedicated [document](https://github.com/Dyrits/MEMORY/blob/main/specifications.pdf).
 A few changes have been made, such as:
 - The fruits are not displayed as squares, but as circles. They are displayed a few seconds at the start of the game before being hidden.
 - The scores and the results are displayed in a modal window.
