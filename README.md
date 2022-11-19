@@ -42,6 +42,7 @@ A few changes have been made, such as:
 - The fruits are not displayed as squares, but as circles. They are displayed a few seconds at the start of the game before being hidden.
 - The scores and the results are displayed in a modal window.
 - The local storage is used to store the scores if the database is not available.
+- The already revealed fruits have a different border (in order to help the players), as well as the fruits that are selected or already matched.
 
 ### Issues
 The project has been made to run locally.  
