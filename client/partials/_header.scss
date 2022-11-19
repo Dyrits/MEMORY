@@ -1,0 +1,15 @@
+@import "./mixins";
+
+header {
+  @include container;
+  #statistics {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    .controls { font-size: 2rem; }
+    #progress, #progress-bar { width: 100%; }
+  }
+}

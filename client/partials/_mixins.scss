@@ -1,0 +1,12 @@
+@import "./variables";
+
+@mixin box-shadow($color) { box-shadow: 0 0 2.5px 2.5px $color; }
+
+@mixin container {
+  width: 60%;
+  margin: 2rem auto;
+  text-align: center;
+  @media only screen and (max-width: $breakpoint-large) { width: 70%; }
+  @media only screen and (max-width: $breakpoint-medium) { width: 80%; }
+  @media only screen and (max-width: $breakpoint-small) { width: 90%; }
+}

@@ -1,0 +1,9 @@
+// Import the different partials (partials):
+@import "partials/reset";
+@import "partials/header";
+@import "partials/boards";
+@import "partials/fruits";
+
+body { font-family: "Courgette", cursive; }
+.red { color: $red; }
+.green { color: $green; }

@@ -1,0 +1,24 @@
+{
+  "name": "memory",
+  "version": "1.0.0",
+  "description": "A simple memory game made as an exercise for O'Clock's application",
+  "main": "index.js",
+  "exports": {
+    "require": "./client/index.cjs"
+  },
+  "scripts": {
+    "docker:database:start": "docker-compose up -d",
+    "docker:database:stop": "docker-compose down",
+    "node:server:start": "node app.js",
+    "development": "nodemon app.js"
+  },
+  "author": "Dylan J. Gerrits",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

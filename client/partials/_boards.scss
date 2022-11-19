@@ -1,0 +1,33 @@
+@import "./variables";
+@import "./mixins";
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 1rem;
+  // The width of the board is adapted to the screen size.
+  @include container;
+  // On small screens, the board is displayed with 6 columns.
+  @media only screen and (max-width: $breakpoint-small) { grid-template-columns: repeat(6, 1fr); }
+}
+
+#score-board {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+  h2 { margin: 1rem; }
+  h3 { margin: 0.5rem; }
+  &-content {
+    text-align: center;
+    background-color: $white;
+    margin: 10% auto;
+    padding: 2rem;
+    border: 1px solid $grey;
+    width: 80%;
+    .controls { font-size: 4rem; }
+  }
+}

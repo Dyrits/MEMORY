@@ -1,0 +1,25 @@
+@import "./variables";
+@import "./animations";
+@import "./mixins";
+
+.fruit {
+  border-radius: 50%;
+  animation: bounce-in 1s both;
+  outline: none;
+  // The box-shadow depends of the status.
+  &[data-status="unselected"] { @include box-shadow($grey); }
+  &[data-status="selected"] { @include box-shadow($orange); }
+  &[data-status="unmatched"] { @include box-shadow($red); }
+  &[data-status="matched"] {
+    outline: none;
+    @include box-shadow($green);
+  }
+}
+
+.masked {
+  // The outline covers the whole fruit.
+  outline: 100px solid $light-grey;
+  outline-offset: -100px;
+  overflow: hidden;
+  transition: outline 0.75s ease-in-out;
+}

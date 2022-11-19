@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory</title>
+    <script src="./index.js" type="module" defer></script>
+    <script src="https://kit.fontawesome.com/7b3b0349cd.js" crossorigin="anonymous" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <h1>MEMO'RY</h1>
+        <section>
+            <ul id="statistics">
+                <li class="controls"><a href="#" id="controls-rank"><i class="fa-solid fa-ranking-star"></i></a></li>
+                <li>Moves: <span id="counter">0</span></li>
+                <li id="progress">
+                    <label for="progress-bar">Time: <span id="timer">00:00:00</span>
+                        <progress id="progress-bar" value="0" max="180000"></progress>
+                    </label>
+                </li>
+            </ul>
+        </section>
+    </header>
+    <main id="game-board"></main>
+    <aside id="score-board">
+        <div id="score-board-content">
+            <h2>- MEMO'RY -</h2>
+            <section id="result"></section>
+            <section id="scores">
+                <h3>Highest scores</h3>
+                <ul id="scores-list"></ul>
+            </section>
+            <section id="instructions">
+                <h3>Instructions</h3>
+                <p>The goal of the game is to find the matching pairs of fruits as quickly as possible.</p>
+                <p>The timer starts when you click to reveal your first element. You have 3 minutes.</p>
+                <p>Click on the button below to start a new game.</p>
+            </section>
+            <section class="controls">
+                <a href="https://github.com/Dyrits" target="_blank" id="controls-link"><i class="fa-brands fa-github"></i></a>
+                <a href="#" id="controls-start"><i class="fa-solid fa-circle-play"></i></a>
+            </section>
+        </div>
+    </aside>
+</body>
+</html>
