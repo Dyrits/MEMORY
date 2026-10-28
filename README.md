@@ -1,1 +1,49 @@
-IyBNZW1vcnkKCkEgd2ViIGltcGxlbWVudGF0aW9uIG9mIHRoZSBNZW1vcnkgZ2FtZSwgY3JlYXRlZCBhcyBhIHRlY2huaWNhbCB0ZXN0IGZvciBhIGpvYiBhcHBsaWNhdGlvbi4KCiMjIEFib3V0IFRoZSBQcm9qZWN0CgpUaGUgc3BlY2lmaWNhdGlvbnMgYXJlIGRlc2NyaWJlZCBpbiB0aGUgZGVkaWNhdGVkIFtkb2N1bWVudF0oaHR0cHM6Ly9naXRodWIuY29tL0R5cml0cy9NRU1PUlkvYmxvYi9tYWluL3NwZWNpZmljYXRpb25zLnBkZikuIEEgZmV3IGNoYW5nZXMgaGF2ZSBiZWVuIG1hZGUsIHN1Y2ggYXM6CgotIFRoZSBmcnVpdHMgYXJlIG5vdCBkaXNwbGF5ZWQgYXMgc3F1YXJlcywgYnV0IGFzIGNpcmNsZXMuIFRoZXkgYXJlIGRpc3BsYXllZCBhIGZldyBzZWNvbmRzIGF0IHRoZSBzdGFydCBvZiB0aGUgZ2FtZSBiZWZvcmUgYmVpbmcgaGlkZGVuLgotIFRoZSBzY29yZXMgYW5kIHRoZSByZXN1bHRzIGFyZSBkaXNwbGF5ZWQgaW4gYSBtb2RhbCB3aW5kb3cuCi0gVGhlIGxvY2FsIHN0b3JhZ2UgaXMgdXNlZCB0byBzdG9yZSB0aGUgc2NvcmVzIGlmIHRoZSBkYXRhYmFzZSBpcyBub3QgYXZhaWxhYmxlLgotIFRoZSBhbHJlYWR5IHJldmVhbGVkIGZydWl0cyBoYXZlIGEgZGlmZmVyZW50IGJvcmRlciAoaW4gb3JkZXIgdG8gaGVscCB0aGUgcGxheWVycyksIGFzIHdlbGwgYXMgdGhlIGZydWl0cyB0aGF0IGFyZSBzZWxlY3RlZCBvciBhbHJlYWR5IG1hdGNoZWQuCgpUaGUgcHJvamVjdCBoYXMgYmVlbiBtYWRlIHRvIHJ1biBsb2NhbGx5LiBUbyBydW4gaXQgb24gYSBzZXJ2ZXIsIHRoZSBlbmRwb2ludCBkZWZpbmVkIGluIHRoZSBgY2xpZW50L21vZHVsZXMvYXBpLm1qc2AgbW9kdWxlIG11c3QgYmUgcmVkZWZpbmVkLCBhbmQgYW4gYC5lbnZgIGZpbGUgbXVzdCBiZSBjcmVhdGVkIHdpdGggdGhlIGluZm9ybWF0aW9uIG9mIHRoZSBzZXJ2ZXIgYW5kIHRoZSBkYXRhYmFzZS4gSXQgbWF5IHJlcXVpcmUgaW5zdGFsbGluZyB0aGUgZGVwZW5kZW5jeSBgZG90ZW52YCBhbmQgaW1wb3J0aW5nIGl0IGluIHRoZSBmaWxlcyB1c2luZyB0aGUgZW52aXJvbm1lbnQgdmFyaWFibGVzLgoKIyMjIFN0YXR1cwoKVGhlIHByb2plY3QgaGFzIGJlZW4gY29tcGxldGVkLgoKIyMjIEJ1aWx0IFdpdGgKCi0gSFRNTCAvIENTUyAvIFNhc3MKLSBKYXZhU2NyaXB0Ci0gTm9kZS5qcyArIEV4cHJlc3MKLSBNb25nb0RCICh2aWEgRG9ja2VyKQoKIyMgR2V0dGluZyBTdGFydGVkCgojIyMgUHJlcmVxdWlzaXRlcwoKLSBOb2RlLmpzCi0gRG9ja2VyIChvcHRpb25hbCwgZm9yIHRoZSBkYXRhYmFzZSkKCiMjIyBJbnN0YWxsYXRpb24KCi0gQ2xvbmUgdGhlIHJlcG9zaXRvcnkuCi0gSW5zdGFsbCB0aGUgZGVwZW5kZW5jaWVzIHdpdGggYG5wbSBpbnN0YWxsYC4KLSAoUmVxdWlyZXMgRG9ja2VyKSBTdGFydCB0aGUgZGF0YWJhc2Ugd2l0aCBgbnBtIHJ1biBkb2NrZXI6ZGF0YWJhc2U6c3RhcnRgIChvciBgZG9ja2VyLWNvbXBvc2UgdXBgKS4gSWYgRG9ja2VyIGlzIG5vdCBpbnN0YWxsZWQsIHRoZSBsb2NhbCBzdG9yYWdlIG9mIHRoZSBicm93c2VyIHdpbGwgYmUgdXNlZCBpbnN0ZWFkLgotIFN0YXJ0IHRoZSBzZXJ2ZXIgd2l0aCBgbnBtIHJ1biBub2RlOnNlcnZlcjpzdGFydGAgKG9yIGBub2RlIGFwcC5qc2ApLgoKSWYgdGhlcmUgYXJlIG5vIGVudmlyb25tZW50IHZhcmlhYmxlcyBzZXQsIHRoZSBzZXJ2ZXIgd2lsbCBzdGFydCBvbiBwb3J0IDMwMDAuIENoZWNrIHRoZSB0ZXJtaW5hbCBmb3IgbW9yZSBpbmZvcm1hdGlvbi4KCiMjIExpY2Vuc2UKCk1JVCBpcyBkZWNsYXJlZCBpbiBgcGFja2FnZS5qc29uYDsgbm8gbGljZW5zZSBmaWxlIGlzIHByZXNlbnQgaW4gdGhpcyByZXBvc2l0b3J5LgoKIyMgQ29udGFjdAoKRHlsYW4gSi4gR2Vycml0cyAtIFtHaXRIdWJdKGh0dHBzOi8vZ2l0aHViLmNvbS9EeXJpdHMpCg==
+# Memory
+
+A web implementation of the Memory game, created as a technical test for a job application.
+
+## About The Project
+
+The specifications are described in the dedicated [document](https://github.com/Dyrits/MEMORY/blob/main/specifications.pdf). A few changes have been made, such as:
+
+- The fruits are not displayed as squares, but as circles. They are displayed a few seconds at the start of the game before being hidden.
+- The scores and the results are displayed in a modal window.
+- The local storage is used to store the scores if the database is not available.
+- The already revealed fruits have a different border (in order to help the players), as well as the fruits that are selected or already matched.
+
+The project has been made to run locally. To run it on a server, the endpoint defined in the `client/modules/api.mjs` module must be redefined, and an `.env` file must be created with the information of the server and the database. It may require installing the dependency `dotenv` and importing it in the files using the environment variables.
+
+### Status
+
+The project has been completed.
+
+### Built With
+
+- HTML / CSS / Sass
+- JavaScript
+- Node.js + Express
+- MongoDB (via Docker)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- Docker (optional, for the database)
+
+### Installation
+
+- Clone the repository.
+- Install the dependencies with `npm install`.
+- (Requires Docker) Start the database with `npm run docker:database:start` (or `docker-compose up`). If Docker is not installed, the local storage of the browser will be used instead.
+- Start the server with `npm run node:server:start` (or `node app.js`).
+
+If there are no environment variables set, the server will start on port 3000. Check the terminal for more information.
+
+## License
+
+MIT is declared in `package.json`; no license file is present in this repository.
+
+## Contact
+
+Dylan J. Gerrits - [GitHub](https://github.com/Dyrits)
